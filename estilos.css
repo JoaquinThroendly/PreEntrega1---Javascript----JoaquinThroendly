@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Orbitron';
+    background-image: url(img/fondo/neon-4916166_1280.jpg);
+    background-size:cover;
+    
+    
+}
+#pantalla-inicial{
+    display: block;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    background: black;
+    padding: 30px;
+    border: 2px solid rgb(146,3,146);
+    border-radius: 20px;
+}
+#pantalla-inicial h1{
+    font-family: 'Orbitron';
+    font-size: 50px;
+    color: rgb(146, 3, 146);
+    border-style:double;
+    
+}
+button{
+    background: rgb(146,3,146);
+    font-family: 'Orbitron';
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 30px;
+    border-bottom: 4px solid rgb(78, 1, 78);
+    
+}
+button:hover{
+    border-bottom: 4px solid transparent;
+    background-color: rgb(219, 5, 219);
+}
+#pantalla-juego{
+    display: none;
+}
+.pregunta-actual{
+    background-color: black;
+    color: white;
+}
+.bien-respondida{
+    background-color: green !important;
+    color:white !important;
+}
+.mal-respondida{
+    background-color: red !important;
+    color: white !important;
+}
+.contenedor-pregunta{
+    background-color: black;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid rgb(146,3,146);
+    padding: 0 20px;
+    border-radius: 20px;
+}
+.contenedor-pregunta #pregunta{
+    margin: 0;
+    font-weight: normal;
+    background-color: rgb(146, 3, 146);
+}
+.contenedor-pregunta input{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+}
+.contenedor-pregunta #letra-pregunta{
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    background: white;
+}
+.container{
+    position: relative;
+    width: 255px;
+    height: 255px;
+    margin: 50px auto;
+    border: 2px solid black ;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container #tiempo{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: white;
+    color: rgb(146, 3, 146);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+#pantalla-final{
+    display: none;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background: black;
+    padding: 30px;
+    border: 2px solid rgb(146, 3, 146);
+    border-radius: 20px;
+    
+
+}
+#pantalla-final span{
+    
+    background: rgb(146, 3, 146);
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold ;
+    border-radius: 50%;
+    margin-bottom: 30px;
+} 
+.resumen{
+    color: white;
+}
+.acert{
+    color: white;
+}
+.cantidad-respondidas{
+    color: white;
+}
+.porcentaje{
+    color: white;
+}

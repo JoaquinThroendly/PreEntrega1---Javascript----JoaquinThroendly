@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>PASAPALABRA</title>
+</head>
+<body>
+    <section id="pantalla-inicial">
+        <h1>PASAPALABRA</h1>
+        <button id="comenzar">COMENZAR JUEGO</button>
+    </section>
+    <section id="pantalla-juego">
+        <div class="container">
+            <span id="tiempo">60</span>
+        </div>
+        <div class="contenedor-pregunta">
+            <span id="letra-pregunta">Z</span>
+            <h2 id="pregunta">Esta es la pregunta</h2>
+            <input type="text" id="respuesta">
+            <div class="botones">
+                <button id="responder">Presiona enter</button>
+                <button id="pasar">Pasapalabra</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="pantalla-final">
+        <h1 class="resumen">Resumen</h1>
+        <h3 class="acert">Acertadas</h3>
+        <span id="acertadas" class="cantidad-respondidas">10</span>
+        <h3 id="score" class="porcentaje">40% de acierto</h3>
+        <button id="recomenzar">Jugar de nuevo</button>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
