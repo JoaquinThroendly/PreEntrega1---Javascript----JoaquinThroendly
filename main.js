@@ -98,7 +98,7 @@ function largarTiempo(){
     
     if(timeLeft<0){
       clearInterval(countdown);
-      //alert("GAME OVER")
+      
       mostrarPantallaFinal()
     }
   },1000)

@@ -18,14 +18,19 @@ body{
     padding: 30px;
     border: 2px solid rgb(146,3,146);
     border-radius: 20px;
+    
 }
 #pantalla-inicial h1{
     font-family: 'Orbitron';
     font-size: 50px;
     color: rgb(146, 3, 146);
     border-style:double;
-    
+    font-display: auto;
+    @media screen and (max-width:700px){
+        font-size: 12px;
+    }
 }
+
 button{
     background: rgb(146,3,146);
     font-family: 'Orbitron';
